@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: calendar-ai-planner
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./google_oauth.json:/app/google_oauth.json:ro
+    env_file:
+      - .env
+
+networks:
+  default:
+    name: calendar-ai-network
+    driver: bridge

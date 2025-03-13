@@ -1,0 +1,21 @@
+[project]
+name = "voccai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-api-python-client>=2.163.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.1",
+    "pydantic-settings>=2.8.1",
+    "pydantic>=2.10.6",
+    "fastapi[standard]>=0.115.11",
+    "aiohttp>=3.11.13",
+    "pipecat-ai[daily,openai,silero]>=0.0.58",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.10",
+]
