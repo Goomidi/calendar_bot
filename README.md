@@ -92,7 +92,7 @@ docker compose up -d
 - **PipeCat**: Real-time voice interaction pipeline
 - **Daily.co**: WebRTC platform for voice communication
 - **Google Calendar API**: For calendar management
-- **Multiple LLM Support**: OpenAI, Groq, and Gemini
+- **Open AI LLM**: For handling reservations
 
 ## License
 
