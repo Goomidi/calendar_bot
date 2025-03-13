@@ -7,7 +7,6 @@ A voice-controlled AI assistant that integrates with Google Calendar for schedul
 - **Voice Interaction**: Communicate with the AI assistant using natural language
 - **Google Calendar Integration**: Create, update, and manage calendar events
 - **Real-Time Voice Interface (RTVI)**: Powered by PipeCat for seamless voice interaction
-- **Multi-Model Support**: Works with OpenAI, Groq, and Gemini AI models
 
 ## Prerequisites
 
@@ -16,8 +15,6 @@ A voice-controlled AI assistant that integrates with Google Calendar for schedul
 - API keys for:
   - Daily.co
   - OpenAI
-  - Groq
-  - Gemini
 
 ## Setup
 
