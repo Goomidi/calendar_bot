@@ -20,7 +20,7 @@ COPY --from=ghcr.io/astral-sh/uv:0.5.4 /uv /uvx /bin/
 WORKDIR /app
 
 COPY pyproject.toml uv.lock* ./
-RUN uv pip install --system -e .
+RUN uv pip install --system --editable .
 
 COPY . .
 
